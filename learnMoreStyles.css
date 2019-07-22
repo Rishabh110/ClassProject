@@ -1,0 +1,6 @@
+/* learnMore.html Css Page mainly for viewports */
+@media only screen and (max-width: 750px) {
+  .jumbotron {
+   background-image: none;
+  }
+}

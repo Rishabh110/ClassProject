@@ -1,0 +1,33 @@
+/* 	CSS Style Sheet for Class Project
+	Author: Rishabh Tiwari
+	Date: 07/15/2019
+	Filename: styles.css */
+@charset 'UTF-8'
+
+#navbarNav {
+	background-color: rgb(230,230,230);
+
+}
+
+.jumbotron {
+	background-color: rgba(150,125,75,.8);
+	background-image: url("hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.jumbotron > .container {
+	margin-left: -10px;
+}
+
+/* Media Query to Get Rid of Background Image because the frets on guitar cover up words on jumbotron*/
+@media only screen and (max-width: 1000px) {
+  .jumbotron {
+    background-image: none;
+  }
+}
+
+.btn {
+	background-color: rgba(125,100,25,.8);
+}

@@ -1,0 +1,33 @@
+/* 	CSS Style Sheet for learnMore.html
+	Author: Rishabh Tiwari
+	Date: 07/15/2019
+	Filename: stylesLearn.css */
+@charset 'UTF-8'
+
+#asideImg { 	/* I don't know why, when I delete this code, the background color of jumbotron and footer change. So i'm keeping it in. */
+	width: 50%;
+}
+.jumbotron, footer {
+	background-color: rgba(125,100,25,.5);
+}
+
+.jumbotron {
+	height: 250px;
+}
+
+.img-right {
+    width: 100%;
+    height: 90%;
+    margin-left: 40px;
+}
+@media only screen and (max-width: 1000px) {
+  #asideImg {
+  	display: none;
+  }
+  }
+  .lead {
+  	display: none;
+  }
+}
+
+

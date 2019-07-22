@@ -1,0 +1,98 @@
+<!--  Create your Profile Page Connected to freeAgent.html
+	Author: Rishabh Tiwari
+	Date: 07/15/2019
+	Filename: profile.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Local Stylesheet -->
+  <link rel="stylesheet" href="stylesProfile.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+
+  <title>Free Agent Profile</title>
+</head>
+<body>
+                                                      <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navigation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded=" false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="freeAgent.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="learnMore.html">Learn More</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reviews.html">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+                                                        <!-- Jumbotron -->
+
+<div class="jumbotron" style="background-image: url(learnHero2.jpg)">
+  <div class="container"> 
+    <h1 class="display-4" style="color:white"><strong>Create Your Profile</strong></h1>
+    <hr class="my-3">
+    <h4 style="color:white">Specify What You Love</h4>
+  </div>
+</div>
+
+                                                      <!-- Beginning of Form -->
+
+<form style="width: 100%;">
+  <div class="container">
+    <div class="form-group">
+      <label for="inputFirstName">First Name</label>
+      <input class="form-control" id="inputFirstname" placeholder="Enter first name">
+    </div>
+
+    <div class="form-group">
+      <label for="inputLastName">Last Name</label>
+      <input class="form-control" id="inputLastName" placeholder="Enter Last Name">
+    </div>
+    
+    <div class="form-group">
+      <label for="instrument">What instrument do you play?</label>
+      <input class="form-control" id="instrument" placeholder="Enter instrument">
+    </div>
+    
+    <div class="form-group">
+      <label for="instrumentTwo">What's another instrument you play?</label>
+      <input class="form-control" id="instrumentTwo" placeholder="Enter instrument">
+    </div>
+    
+    <div class="form-group">
+      <label for="genre">What's your prefferred genre of music to play?</label>
+      <input type="password" class="form-control" id="genre" placeholder="Enter genre">
+    </div>
+    
+    <div class="form-group">
+      <label for="genreTwo">Give me one more genre of music you dabble in.</label>
+      <input type="password" class="form-control" id="genreTwo" placeholder="Enter genre">
+    </div>
+    
+    <button type="submit" class="btn btn-primary" style="background-color: rgba(125,100,25,.5)">Submit</button>
+    <br>
+    <br>
+  </div>
+</form>
+
+</body>
+</html>
